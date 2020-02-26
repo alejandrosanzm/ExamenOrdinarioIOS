@@ -13,6 +13,9 @@
 		E0C3F77424067C420080CE6F /* OrdinarioIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0C3F77224067C420080CE6F /* OrdinarioIOS.xcdatamodeld */; };
 		E0C3F77624067C430080CE6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0C3F77524067C430080CE6F /* Assets.xcassets */; };
 		E0C3F77924067C440080CE6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0C3F77724067C440080CE6F /* LaunchScreen.storyboard */; };
+		E0C3F781240683FA0080CE6F /* VCCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C3F780240683FA0080CE6F /* VCCategory.swift */; };
+		E0C3F78324068A7B0080CE6F /* Listas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C3F78224068A7B0080CE6F /* Listas.swift */; };
+		E0C3F785240693F70080CE6F /* VCItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C3F784240693F70080CE6F /* VCItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E0C3F77524067C430080CE6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0C3F77824067C440080CE6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0C3F77A24067C440080CE6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0C3F780240683FA0080CE6F /* VCCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCCategory.swift; sourceTree = "<group>"; };
+		E0C3F78224068A7B0080CE6F /* Listas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listas.swift; sourceTree = "<group>"; };
+		E0C3F784240693F70080CE6F /* VCItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				E0C3F77724067C440080CE6F /* LaunchScreen.storyboard */,
 				E0C3F77A24067C440080CE6F /* Info.plist */,
 				E0C3F77224067C420080CE6F /* OrdinarioIOS.xcdatamodeld */,
+				E0C3F780240683FA0080CE6F /* VCCategory.swift */,
+				E0C3F78224068A7B0080CE6F /* Listas.swift */,
+				E0C3F784240693F70080CE6F /* VCItem.swift */,
 			);
 			path = OrdinarioIOS;
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0C3F76E24067C420080CE6F /* ViewController.swift in Sources */,
+				E0C3F785240693F70080CE6F /* VCItem.swift in Sources */,
 				E0C3F76C24067C420080CE6F /* AppDelegate.swift in Sources */,
+				E0C3F781240683FA0080CE6F /* VCCategory.swift in Sources */,
 				E0C3F77424067C420080CE6F /* OrdinarioIOS.xcdatamodeld in Sources */,
+				E0C3F78324068A7B0080CE6F /* Listas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
